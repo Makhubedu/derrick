@@ -18,7 +18,7 @@ const About = () => {
           <br />
             Transforming my creativity and knowledge into a websites has been my passion for over a three years. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.
         </p>
-        <Button type='primary' onClick={() => router.push('/about')}>Read More {'>'}</Button>
+        <Button type='primary' onClick={() => router.push('/about-me')}>Read More {'>'}</Button>
       </div>
       <div className=''>
         <Image src='/images/profile-image.png' width={343} height={506} alt="Derrick Profile Image" />
