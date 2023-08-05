@@ -15,7 +15,7 @@ const Header = () => {
   const router = useRouter();
 
   const handleContact = () => {
-    router.push('/contact');
+    router.push('/contacts');
   };
     
   return(
