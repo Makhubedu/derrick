@@ -38,7 +38,7 @@ const AboutMe = () => {
       {/* Derrick's Fun Fatcs*/}
       <section className='relative mt-[74px] w-full max-w-7xl'>
         <div className='mb-12'>
-          <Title noline={true}>my-fun-fact</Title>
+          <Title noline={true}>my-fun-facts</Title>
         </div>
         <FunFacts />
       </section>
