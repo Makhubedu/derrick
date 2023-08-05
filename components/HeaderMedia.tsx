@@ -7,9 +7,9 @@ const HeaderMedia = () => {
   return (
     <div className=" flex flex-col gap-2 items-center">
       <div className=" w-px h-48 bg-secondary"></div>
-      <Link href='/some-link-here'><GitHub /></Link>
-      <Link href='/some-link-here'><LinkedIn /></Link>
-      <Link href='/some-link-here'><Email /></Link>
+      <Link href="https://github.com/Makhubedu" target="_blank"><GitHub /></Link>
+      <Link href="https://za.linkedin.com/in/derrick-makhubedu-58b716185" target="_blank"><LinkedIn /></Link>
+      <Link href="mailto:lefaderrick@gmail.com" target="_blank"><Email /></Link>
     </div>
   );
 };

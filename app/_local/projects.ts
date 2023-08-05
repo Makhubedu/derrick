@@ -11,7 +11,7 @@ export const projects: ProjectType[] = [
       'Django',
       'Rest API\'s'
     ],
-    'projectName': 'Compare Prices on items'
+    'projectName': 'Compare Prices of items'
   },
   {
     id: 2,
