@@ -1,7 +1,7 @@
 import React from 'react';
 
+import { Analytics } from '@vercel/analytics/react';
 import { Fira_Code } from 'next/font/google';
-
 import Footer from '@/components/Footer';
 
 import './globals.css';
@@ -25,6 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${firaCode.className} flex min-h-screen flex-col items-center justify-between p-10 pt-0 overflow-x-hidden`}>
         {children}
+        <Analytics />
         <section className='w-full max-w-7xl mt-16'>
           <Footer />
         </section>
