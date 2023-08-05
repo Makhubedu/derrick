@@ -1,0 +1,1 @@
+export type DailyCode = [string, string, string];
