@@ -25,7 +25,7 @@ const Header = () => {
       <div className="flex gap-4 mt-16 sm:flex-col">
         <div className="flex flex-col gap-7 flex-1">
           <h1 className=" text-white font-semibold text-[32px] font-fira">
-            Derrick is a <span className=" text-accent">Software Developer</span> and <span className=" text-accent">a web designer</span>
+            Derrick is a <span className=" text-accent">Software Developer</span> and <span className=" text-accent">a web designer.</span>
           </h1>
           <p className='font-fira text-base text-secondary'>
             He crafts responsive websites where technologies meet creativity
